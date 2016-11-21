@@ -1,0 +1,92 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+body {
+  background: #C23B22;
+  background-image: url("pulpo.gif");
+  color: #C23B22;
+  font-family: calibri;
+  text-align:center;
+}
+#header{
+  color: #C23B22;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.registro {
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -184px 0px 0px -155px;
+  background: rgba(0,0,0,0.2);
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+}
+
+input[type="text"], input[type="password"] {
+  width: 250px;
+  padding: 25px 0px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  outline: none;
+  color: #black;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  background: #b5cd60;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+input[type="reset"] {
+  background: #b5cd60;
+  border: 0;
+  width: 250px;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+  background: #16aa56;
+}
+input[type="reset"]:hover {
+  background: #B2170E;
+}
+
+#footer {
+  position: absolute;
+  right:0;
+  bottom:0;
+  left:0;
+  padding: 1rem;
+  background: rgba(0,0,0,0.2);
+  padding: 20px 30px;
+  border-radius: 5px; 
+  box-shadow: 0px 1px 0px rgba(0,0,0,0.3),inset 0px 1px 0px rgba(255,255,255,0.07)
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  width: 100%;
+  bottom: opx;
+}
+
+
